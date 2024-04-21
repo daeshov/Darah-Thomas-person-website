@@ -84,8 +84,8 @@ a:hover {
 
 .bg-image {
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: local;
+  background-size: contain;
   background-position: center center;
 }
 
@@ -681,7 +681,11 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: -15px;
+}
+
+.about-info {
+  margin-left: -30px;
 }
 
 .skill-mf span {
@@ -740,31 +744,6 @@ a:hover {
 }
 
 /*======================================
-//--//-->   COUNTER
-======================================*/
-
-.counter-box {
-  color: #fff;
-  text-align: center;
-}
-
-.counter-ico {
-  margin-bottom: 1rem;
-}
-
-.counter-ico .ico-circle {
-  height: 60px;
-  width: 60px;
-  line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
-.counter-num .counter {
-  font-size: 2rem;
-  margin-bottom: 0;
-}
-
-/*======================================
 //--//-->   PORTFOLIO
 ======================================*/
 
@@ -773,6 +752,10 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+}
+
+.card-4 {
+  padding-top: 10px;
 }
 
 .work-box:hover img {
